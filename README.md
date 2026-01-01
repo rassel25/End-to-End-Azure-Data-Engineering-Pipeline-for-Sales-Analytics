@@ -45,6 +45,10 @@ The goal is to show how raw sales data can be transformed into actionable insigh
 ➤ **SQL Server**:
 1. One SQL server can have several databases
 
+➤ **Azure Data Factory**:
+1. We use linked services to connect ADF to sources
+2. In the real world, we use a parameterized dataset
+
 ---
 
 ## 📦 Sales Data Description
