@@ -1,32 +1,3 @@
-# Introduction
-This project demonstrates a complete, production-style Azure data engineering pipeline built to ingest, transform, and analyze sales data from GitHub all the way to Power BI. It reflects real-world data engineering practices, including cloud orchestration, lakehouse architecture, incremental processing, and business-focused reporting.
-
-The goal is to show how raw sales data can be transformed into actionable insights using scalable Azure services.
-
-# Architecture Overview
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7a73f92d-083b-4536-aaa6-e79d8cc469bf" />
-
-
-🔄 Data Flow Summary
-
-GitHub hosts raw sales data files.
-
-Azure SQL Database acts as the structured landing zone.
-
-Azure Data Factory orchestrates ingestion from SQL to Data Lake.
-
-Azure Data Lake Gen2 stores data in Bronze, Silver, and Gold layers.
-
-Azure Databricks performs cleaning, transformation, and modeling.
-
-Delta Lake provides optimized storage for analytics.
-
-Power BI visualizes sales KPIs and insights.
-
-Here it is — a polished, recruiter‑friendly **full README** for your GitHub project. It’s written to showcase your technical depth, clarity, and real‑world data engineering skills, especially around Azure and sales analytics.
-
----
-
 # 🚀 End-to-End Azure Data Engineering Pipeline (Sales Analytics)
 
 ## 👋 Introduction
@@ -37,24 +8,7 @@ The goal is to show how raw sales data can be transformed into actionable insigh
 
 ---
 
-## 🎯 Key Highlights for Recruiters
-
-This project showcases:
-
-- **End-to-end pipeline ownership** (ingestion → transformation → modeling → reporting)  
-- **Azure ecosystem expertise** (Data Factory, Databricks, Data Lake, SQL, Delta Lake)  
-- **Lakehouse architecture** with Bronze/Silver/Gold layers  
-- **Sales analytics modeling** (OBT + Star Schema)  
-- **Secure, modular, and scalable design**  
-- **Strong documentation and reproducibility**  
-
-It demonstrates the skills expected from a **Data Engineer**, **Cloud Engineer**, or **Analytics Engineer** in modern data teams.
-
----
-
 ## 🏗️ Architecture Overview
-
-> Note: In the architecture diagram, the Power BI icon is partially obscured, but it represents the final reporting layer.
 
 ### 🔄 Data Flow Summary
 
@@ -66,6 +20,7 @@ It demonstrates the skills expected from a **Data Engineer**, **Cloud Engineer**
 6. **Delta Lake** provides optimized storage for analytics.  
 7. **Power BI** visualizes sales KPIs and insights.
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7a73f92d-083b-4536-aaa6-e79d8cc469bf" />
 ---
 
 ## 🧰 Technologies Used
