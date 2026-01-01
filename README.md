@@ -42,6 +42,9 @@ The goal is to show how raw sales data can be transformed into actionable insigh
 2. Check the box **Enable hierarchical namespace** to have storage as Data Lake; otherwise, Blob storage will be created
 3. Select **Access tier** according to your use case: For frequent data access: Hot, For infrequent data access: Cool, For rarely data access: Cold
 
+➤ **SQL Server**:
+1. One SQL server can have several databases
+
 ---
 
 ## 📦 Sales Data Description
