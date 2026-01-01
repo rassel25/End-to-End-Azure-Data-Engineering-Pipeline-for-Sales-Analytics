@@ -36,9 +36,10 @@ The goal is to show how raw sales data can be transformed into actionable insigh
 | Reporting        | Power BI                             |
 | Security         | Azure RBAC, Managed Identity, Encryption |
 
-**Storage account: 
-1. Select LRS Redundancy to have the lowest cost
-2. Check the box Enable hierarchical namespace to have storage as Data Lake; otherwise, Blob storage will be created
+# Important points to remember while creating resources in the Resource group
+**Storage account**: 
+1. Select **LRS Redundancy** to have the lowest cost
+2. Check the box **Enable hierarchical namespace** to have storage as Data Lake; otherwise, Blob storage will be created
 
 
 ---
