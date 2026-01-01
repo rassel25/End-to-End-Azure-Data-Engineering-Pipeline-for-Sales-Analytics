@@ -21,6 +21,7 @@ The goal is to show how raw sales data can be transformed into actionable insigh
 7. **Power BI** visualizes sales KPIs and insights.
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7a73f92d-083b-4536-aaa6-e79d8cc469bf" />
+
 ---
 
 ## 🧰 Technologies Used
