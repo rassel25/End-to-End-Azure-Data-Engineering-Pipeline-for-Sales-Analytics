@@ -49,6 +49,14 @@ The goal is to show how raw sales data can be transformed into actionable insigh
 1. We use linked services to connect ADF to sources
 2. In the real world, we use a parameterized dataset
 
+➤ **Incremental Loading**:   
+1. At first, we should create a Watermark table to contain the date lower than the minimum date in the dataset.
+2. As the pipeline runs, a stored procedure is used to replace the date in the Watermark table with the latest date of the dataset
+3. incremental load_date > last_load_date AND incremental load_date <= current_load_date
+
+➤ **Databricks**:
+1. Pricing Tier should be Premium to use Unity Catalogue
+
 ---
 
 ## 📦 Sales Data Description
