@@ -56,6 +56,10 @@ The goal is to show how raw sales data can be transformed into actionable insigh
 
 ➤ **Databricks**:
 1. Pricing Tier should be Premium to use Unity Catalogue
+2. Unity Catalog is used to secure, track, and keep all your data assets in one single place
+3. SCD is only for Dimension tables. We are using SCD Type 1(upsert) in our gold layer for incremental loading.
+4. We chose SCD Type 1(upsert) because the business only needed the latest attribute values, not historical versions, and SCD Type 2 would have added unnecessary complexity. 
+5. We always create the dimension table first, then the fact table
 
 ---
 
