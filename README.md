@@ -104,6 +104,9 @@ This enables analytics such as:
 Two models are created:
 
 #### ⭐ Star Schema
+
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/6ea7d41f-764c-4612-8dc1-447376a98bd4" />
+
 - **fact_sales**  
 - **dim_customer**  
 - **dim_product**  
