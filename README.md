@@ -121,6 +121,9 @@ Two models are created:
 
 ## 🔧 Pipeline Components
 
+<img width="1297" height="344" alt="image" src="https://github.com/user-attachments/assets/67072495-14f6-4b16-bc02-078e62e5e536" />
+
+
 ### 1. **GitHub (Source)**
 - Stores raw sales data  
 - Version control for pipeline scripts  
