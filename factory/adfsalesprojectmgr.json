@@ -1,0 +1,9 @@
+{
+	"name": "adfsalesprojectmgr",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "16ed0172-2cc8-4290-8d54-8cfecaffc139",
+		"tenantId": "6fe18060-dfaa-483b-b753-f06985184331"
+	}
+}

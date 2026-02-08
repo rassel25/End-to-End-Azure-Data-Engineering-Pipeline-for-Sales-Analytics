@@ -1,0 +1,13 @@
+{
+	"name": "sales_data",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7405615557041375.15.azuredatabricks.net",
+			"existingClusterId": "0105-011340-ndy9iqlg",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQERGMTBBOUY5LUMyMjctNDAyNC04N0ExLTcwNTc5QzI1RUFGRF9lMDMyZDg2MS1iZTY3LTQxNzgtYjM5OS0wNWI5OGIxMDhhMjMiDQp9"
+		}
+	}
+}
