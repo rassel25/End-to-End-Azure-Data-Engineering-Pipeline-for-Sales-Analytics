@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsalesprojectmgr"
+		},
+		"AzureDataLake_bronze_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase_password": {
+			"value": ""
+		},
+		"sales_data_accessToken": {
+			"value": ""
+		},
+		"AzureDataLake_bronze_properties_typeProperties_url": {
+			"value": "https://salesprojectmgr.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "salesserverdb.database.windows.net"
+		},
+		"AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "salesprojectdb"
+		},
+		"AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "adminmgr"
+		},
+		"github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"sales_data_properties_typeProperties_existingClusterId": {
+			"value": "0105-011340-ndy9iqlg"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
